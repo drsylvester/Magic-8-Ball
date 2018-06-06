@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -96,11 +96,13 @@
 				TargetAttributes = {
 					29845EEB20B81CE100D7CFDE = {
 						CreatedOnToolsVersion = 9.3.1;
+						DevelopmentTeam = Y2BHH9Q644;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 29845EE720B81CE100D7CFDE /* Build configuration list for PBXProject "Magic 8 Ball" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -270,8 +272,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -284,10 +285,7 @@
 				DEVELOPMENT_TEAM = Y2BHH9Q644;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dereksylvester.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -303,10 +301,7 @@
 				DEVELOPMENT_TEAM = Y2BHH9Q644;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dereksylvester.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
