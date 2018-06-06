@@ -42,7 +42,12 @@ class ViewController: UIViewController {
     
     func getNextImageNumber() -> Int {
         
-        return Int(arc4random_uniform(UInt32(ballArray.count)))
+        return getRandomInt(upper: ballArray.count)
+    }
+    
+    func getRandomInt(upper: Int) -> Int {
+        
+        return Int(arc4random_uniform(UInt32(upper)))
     }
 }
 
